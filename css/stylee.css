@@ -48,7 +48,7 @@ p.catagory-discraption {
 /*product section*/
 .product-section {
     position: relative;
-    background-image: url(file:///C:/Users/Alahram/Desktop/object-task/object_task/imgs/salad-img.jpg);
+    background-image: url(https://raw.githubusercontent.com/Aya-khamis/object_task/main/imgs/salad-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom left;
