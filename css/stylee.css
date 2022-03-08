@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+
+body {
+    background-color: #eb633f;
+}
+
+/* desktop view */
+.col-4 {
+    width: 33%;
+}
+
+.col-8 {
+    width: 66%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/*img section*/
+.product-img {
+    display: none;
+}
+
+/*catagory section*/
+h1.catagory-title {
+    padding: 10px 20px;
+    font-size: 36px;
+}
+
+p.catagory-discraption {
+    padding: 20px;
+}
+
+.catagory {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*product section*/
+.product-section {
+    position: relative;
+    background-image: url(file:///C:/Users/Alahram/Desktop/object-task/object_task/imgs/salad-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+.inner-row {
+    position: absolute;
+    left: 3%;
+    width: 90%;
+    bottom: 0%;
+    padding: 0px 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+p.sub-title {
+    margin-bottom: 10px;
+}
+
+.product-discraption h2 {
+    margin-bottom: 20px;
+}
+
+a.order-online {
+    font-size: 18px;
+}
+
+/* tablet view */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    /*img section*/
+   .product-img {
+        display: block;
+        width: 100%;
+    }
+
+    /*catagory section*/
+
+    .catagory {
+        margin-top: 30px;
+        justify-content: flex-start;
+    }
+
+    p.catagory-discraption br {
+        display: none !important;
+    }
+
+    p.catagory-discraption {
+        padding: 10px;
+    }
+
+    h1.catagory-title {
+        padding: 10px;
+        font-size: 28px;
+    }
+
+    /*product section*/
+
+    .product-section {
+        background-image: none;
+    }
+
+    .inner-row {
+        display: block;
+        position: static;
+        padding: 20px;
+    }
+
+    a.order-online {
+        font-size: 17px;
+    }
+
+}
+/* mobile view */
+
+@media only screen and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .col-8 {
+        width: auto;
+        height: 70vh;
+    }
+    .col-4 {
+        height: 30vh;
+        width: auto;
+    }
+    /*catagory section*/
+    .catagory {
+        justify-content: center;
+    }
+    /*product section*/
+    .inner-row {
+        padding: 10px;
+    }
+    .product-discraption br {
+        display: none;
+        }
+}
