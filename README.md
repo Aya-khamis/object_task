@@ -3,5 +3,5 @@ Object Ui task
 
 
 ## the project Notes 
-the desktop version took hour and half and the tablet and mobile version took a half hour
-total time was 2 hour
+the desktop view:  around 75 minute 
+tablet and mobile view: 15 minute
